@@ -10,4 +10,5 @@ def find_even_values(src)
         element_index += 1 
       end
       count += 1
+    end
 end
