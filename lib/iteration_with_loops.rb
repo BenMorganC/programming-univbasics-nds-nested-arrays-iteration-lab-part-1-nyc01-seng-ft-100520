@@ -6,5 +6,8 @@ def find_even_values(src)
     while count < src.count do
       element_index = 0 
       while element_index < src[count].count do
-        p src[count][element_index] %2
+        p src[count][element_index] % 2
+        element_index += 1 
+      end
+      count += 1
 end
