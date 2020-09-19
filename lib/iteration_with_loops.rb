@@ -8,7 +8,7 @@ def find_even_values(array_of_integers)
     while row_index < array_of_integers.count do
       element_index = 0 
       while element_index < array_of_integers[row_index].count do
-        p array_of_integers[row_index][element_index] % 2
+        p array_of_integers[row_index][element_index] % 2 = 1
         element_index += 1 
       end
       row_index += 1
